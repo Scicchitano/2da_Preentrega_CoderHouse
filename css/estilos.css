@@ -3,9 +3,28 @@
     padding: 0;
     box-sizing: 62.5%;
 }
-
-.toto{
-    background-color: pink;
+/*le cambio color a mi header*/
+.menu{
+    background-color: rgb(243, 215, 220);
+}
+/*Le cambio color a mi footer*/
+.pie{
+    background-color: rgba(221, 220, 220, 0.518);
+}
+/*CLASS PARA CENTRAR MEJOR LAS CARDS DE LA PAGINA DE CURSOS*/
+.cardCursos{
+    padding: 25px;
+    margin: 15px;
+}
+.cardProductos{
+    margin: 15px;
+    padding: 10px;
+}
+/*Agrego estilos al parrafo "Contase con nosotros"*/
+.parrafoRedes{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
 

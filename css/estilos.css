@@ -68,7 +68,24 @@ margin: 10px;
 .photo-container {
     display: flex;
     justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(246, 236, 237, 0.353);
 }
-
+/*Estilos pagina productos*/
+.cardProductos{
+    font-size: 20px;
+    text-align: center;
+}
+.parrafoProductos{
+    font-size: 15px;
+    text-align: center;
+}
+/*Estilos para las paginas de los productos*/
+.cardPaginas{
+    margin: 25px;
+    padding: 50px ;
+    
+}
 
 

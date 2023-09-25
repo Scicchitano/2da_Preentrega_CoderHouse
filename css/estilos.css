@@ -1,91 +1,214 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: 62.5%;
-}
 /*le cambio color a mi header*/
-.menu{
-    background-color: rgb(243, 215, 220);
-}
-/*Le cambio color a mi footer*/
-.pie{
-    background-color: rgba(221, 220, 220, 0.518);
-}
-/*CLASS PARA CENTRAR MEJOR LAS CARDS DE LA PAGINA DE CURSOS*/
-.cardCursos{
-    padding: 25px;
-    margin: 15px;
-}
-.cardProductos{
-    margin: 15px;
-    padding: 10px;
-}
-/*Agrego estilos al parrafo "Contase con nosotros"*/
-.parrafoRedes{
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-}
-/*Agrego estilos para los logos de paises y avales*/
-.iconoPais{
-    width: 90px;
-    height: 90px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 50px;
-    margin-right: 50px;
+.menu {
+  background-color: rgb(243, 215, 220);
 }
 
-.iconosPaises{
-    display: flex;
-    justify-content: center;
-    margin: 50px;
+/*Le cambio color a mi footer*/
+.pie {
+  background-color: rgba(221, 220, 220, 0.518);
 }
-.sectionPaises{
-    margin: 25px;
+
+.cardsCursos {
+  background-color: rgba(228, 189, 214, 0.493);
 }
+
+.photo-container {
+  background-color: rgba(243, 215, 220, 0.333);
+}
+
+.cardsProductos {
+  background-color: rgba(228, 189, 214, 0.493);
+}
+
+/*CLASS PARA CENTRAR MEJOR LAS CARDS DE LA PAGINA DE CURSOS*/
+.cardCursos {
+  padding: 25px;
+  margin: 15px;
+}
+
+.parrafoCursos {
+  font-size: 25px;
+  text-align: center;
+}
+
+/*ESTILOS PARA PAGINAS/CURSOS/CURSOCOMERTOLOGIA, ETC.*/
+.cardsCursos {
+  font-size: 35px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(228, 189, 214, 0.493);
+}
+
+.parrafoscursos {
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+}
+
+/*Estilos pagina productos*/
+.cardProductos {
+  font-size: 20px;
+  text-align: center;
+}
+
+.parrafoProductos {
+  font-size: 15px;
+  text-align: center;
+}
+
+/*Estilos para las paginas de los productos*/
+.cardPaginas {
+  margin: 25px;
+  padding: 50px;
+}
+
+/*Estilos para Paginas/productos/cremaReductura, biotense, ect*/
+.cardsProductos {
+  font-size: 25px;
+  text-align: center;
+  padding: 15px;
+  margin: 15px;
+}
+
 /*Agrego estilos a la pagina nosotros*/
-.tituloNosotros{
-font-size: 30px;
-padding: 10px;
-margin: 10px;
+.tituloNosotros {
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
 }
-.parrafoNosotros{
-    font-size: 20px;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
+
+.parrafoNosotros {
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
 }
+
 /*Para que las imagenes tengan zoom*/
 .zoom {
-    transition: transform .2s; 
+  transition: transform 0.2s;
+  height: 400px;
+  width: 400px;
 }
- 
+
 .zoom:hover {
-    transform: scale(1.5); 
+  transform: scale(1.5);
 }
+
 /*Alineo imagenes*/
 .photo-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(243, 215, 220, 0.333);
+}
+
+/*Agrego estilos para los logos de paises y avales*/
+.iconoPais {
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.iconosPaises {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.sectionPaises {
+  margin: 25px;
+}
+
+/*Agrego estilos al parrafo "Contactese con nosotros"*/
+.parrafoRedes {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 62.5%;
+}
+
+@media (min-width: 219px) and (max-width: 430px) {
+  .iconoPais {
+    width: 30px;
+    height: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .iconosPaises {
     display: flex;
     justify-content: center;
+    margin: 30px;
+  }
+  .sectionPaises {
     margin: 10px;
-    padding: 10px;
-    background-color: rgba(246, 236, 237, 0.353);
-}
-/*Estilos pagina productos*/
-.cardProductos{
-    font-size: 20px;
+  }
+  .tituloNosotros {
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+  }
+  .parrafoNosotros {
+    font-size: 10px;
+    margin: 5px;
+    padding: 5px;
     text-align: center;
-}
-.parrafoProductos{
+  }
+  .zoom {
+    transition: transform 0.2s;
+    width: 300PX;
+    height: 300px;
+  }
+  .zoom:hover {
+    transform: scale(1.5);
+  }
+  .photo-container {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(243, 215, 220, 0.333);
+  }
+  .cardsCursos {
     font-size: 15px;
     text-align: center;
-}
-/*Estilos para las paginas de los productos*/
-.cardPaginas{
-    margin: 25px;
-    padding: 50px ;
-    
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(228, 189, 214, 0.493);
+  }
+  .parrafoscursos {
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
+  }
+  .cardCursos {
+    padding: 15px;
+    margin: 10px;
+  }
+  .cardsProductos {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+  }
+  .parrafoProductos {
+    font-size: 10px;
+    text-align: center;
+  }
+  .parrafoRedes {
+    font-size: 10px;
+  }
 }
 
-
+/*# sourceMappingURL=estilos.css.map */

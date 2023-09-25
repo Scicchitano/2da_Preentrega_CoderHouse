@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 62.5%;
+}
+/*le cambio color a mi header*/
+.menu{
+    background-color: rgb(243, 215, 220);
+}
+/*Le cambio color a mi footer*/
+.pie{
+    background-color: rgba(221, 220, 220, 0.518);
+}
+/*CLASS PARA CENTRAR MEJOR LAS CARDS DE LA PAGINA DE CURSOS*/
+.cardCursos{
+    padding: 25px;
+    margin: 15px;
+}
+
+.parrafoCursos{
+    font-size: 25px;
+    text-align: center;
+}
+
+.cardsCursos{
+    font-size: 35px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(228, 189, 214, 0.493);
+
+}
+.parrafoscursos{
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+/*Agrego estilos al parrafo "Contase con nosotros"*/
+.parrafoRedes{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+/*Agrego estilos para los logos de paises y avales*/
+.iconoPais{
+    width: 90px;
+    height: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.iconosPaises{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.sectionPaises{
+    margin: 25px;
+}
+/*Agrego estilos a la pagina nosotros*/
+.tituloNosotros{
+font-size: 30px;
+padding: 10px;
+margin: 10px;
+}
+.parrafoNosotros{
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+/*Para que las imagenes tengan zoom*/
+.zoom {
+    transition: transform .2s; 
+}
+ 
+.zoom:hover {
+    transform: scale(1.5); 
+}
+/*Alineo imagenes*/
+.photo-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(243, 215, 220, 0.333);
+}
+/*Estilos pagina productos*/
+.cardProductos{
+    font-size: 20px;
+    text-align: center;
+}
+.parrafoProductos{
+    font-size: 15px;
+    text-align: center;
+}
+/*Estilos para las paginas de los productos*/
+.cardPaginas{
+    margin: 25px;
+    padding: 50px ;
+    
+}
+
+

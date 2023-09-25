@@ -1,0 +1,30 @@
+/*Agrego estilos a la pagina nosotros*/
+.tituloNosotros{
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    }
+    .parrafoNosotros{
+        font-size: 20px;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+    /*Para que las imagenes tengan zoom*/
+    .zoom {
+        transition: transform .2s; 
+        height: 400px;
+        width: 400px;
+    }
+     
+    .zoom:hover {
+        transform: scale(1.5); 
+    }
+    /*Alineo imagenes*/
+    .photo-container {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        padding: 10px;
+        background-color: rgba(243, 215, 220, 0.333);
+    }

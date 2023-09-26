@@ -46,6 +46,11 @@
   padding: 10px;
 }
 
+.modal {
+  margin: 20px;
+  padding: 20px;
+}
+
 /*Estilos pagina productos*/
 .cardProductos {
   font-size: 20px;
@@ -188,9 +193,11 @@
     background-color: rgba(228, 189, 214, 0.493);
   }
   .parrafoscursos {
-    font-size: 10px;
-    text-align: center;
+    display: flex;
+    font-size: 15px;
+    margin: 5px;
     padding: 5px;
+    text-align: center;
   }
   .cardCursos {
     padding: 15px;

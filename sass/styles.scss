@@ -66,9 +66,11 @@
         
         }
         .parrafoscursos{
-            font-size: 10px;
-            text-align: center;
+            display: flex;
+            font-size:15px;
+            margin: 5px;
             padding: 5px;
+            text-align: center;
         }
 
         .cardCursos{
